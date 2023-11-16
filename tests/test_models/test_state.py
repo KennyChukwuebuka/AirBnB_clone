@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-defines unittests for state class
+defines unittests for state classes
 """
 
 import models
@@ -61,11 +61,7 @@ class TestState(unittest.TestCase):
 
 
 class TestState_saving(unittest.TestCase):
-<<<<<<< HEAD
     """
-=======
-    """ 
->>>>>>> upstream/ysg
     unittests for testing the saving of the State
     class
     """
