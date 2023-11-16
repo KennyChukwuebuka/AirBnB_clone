@@ -19,7 +19,7 @@ from unittest.mock import patch
 
 
 class TestHBNBCommand_prompting(unittest.TestCase):
-    """Unittests for test prompting"""
+    """Unittests for test the prompting"""
 
     def test_prompt_string(self):
         self.assertEqual("(hbnb) ", HBNBCommand.prompt)
