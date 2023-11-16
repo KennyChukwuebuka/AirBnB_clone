@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Unittesting the review classes
+Unittesting the review for the classes
 """
 
 import models
