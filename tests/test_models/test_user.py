@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Unittest to test the user class
+Unittest to test the user classes
 """
 
 import unittest
@@ -28,11 +28,7 @@ class TestUser(unittest.TestCase):
 
     def test_email(self):
         # test if email is public
-<<<<<<< HEAD
         self.assertEqual(str, type(User.email))
-=======
-        self.assertEqual(str, type(User.password))
->>>>>>> upstream/ysg
 
     def test_first_name(self):
         # test if first_name is public
