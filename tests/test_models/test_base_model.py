@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-unittest to test the BaseModel function
+unittest to test the BaseModel
 """
 
 import unittest
@@ -11,10 +11,7 @@ from datetime import datetime
 from models.engine.file_storage import FileStorage
 import uuid
 
-<<<<<<< HEAD
 
-=======
->>>>>>> upstream/ysg
 class TestBaseModel(unittest.TestCase):
     """
     Class to test the BaseModel Function
@@ -59,11 +56,7 @@ class TestBaseModel(unittest.TestCase):
         self.assertIsInstance(obj.updated_at, datetime)
 
     def test_init_without_kwargs(self):
-<<<<<<< HEAD
         # Testing initialization without kwargs
-=======
-	# Testing initialization without kwargs
->>>>>>> upstream/ysg
         obj = BaseModel()
         self.assertTrue(hasattr(obj, 'id'))
         self.assertIsInstance(obj.id, str)
@@ -85,10 +78,7 @@ class TestBaseModel(unittest.TestCase):
 
     def test_to_dict_method(self):
         # Testing the __dict__ method
-<<<<<<< HEAD
 
-=======
->>>>>>> upstream/ysg
         obj = BaseModel()
         obj_dict = obj.to_dict()
         self.assertTrue(isinstance(obj_dict, dict))
@@ -174,7 +164,6 @@ class TestBaseModel_save_method(unittest.TestCase):
         with self.assertRaises(TypeError):
             obj.save(None)
 
-<<<<<<< HEAD
     def test_save_updates(self):
         obj = BaseModel()
         obj.save()
@@ -185,8 +174,3 @@ class TestBaseModel_save_method(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-=======
-
-if __name__ == '__main__':
-	unittest.main()
->>>>>>> upstream/ysg

@@ -27,13 +27,6 @@ class TestAmenity(unittest.TestCase):
         self.assertTrue(hasattr(amenity, 'name'))
         self.assertEqual(amenity.name, "")
 
-<<<<<<< HEAD
-=======
-    def test_name(self):
-        a = Amenity()
-        self.assertIs(type(a.name), str)
-
->>>>>>> upstream/ysg
     def test_instan_with_kwargs(self):
         """test the kwargs method"""
         d_time = datetime.now()
@@ -43,13 +36,10 @@ class TestAmenity(unittest.TestCase):
         self.assertEqual(a.created_at, d_time)
         self.assertEqual(a.updated_at, d_time)
 
-<<<<<<< HEAD
     def test_name(self):
         a = Amenity()
         self.assertIs(type(a.name), str)
 
-=======
->>>>>>> upstream/ysg
     def test_two_amenities(self):
         a1 = Amenity()
         a2 = Amenity()
@@ -102,7 +92,7 @@ class TestAmenity(unittest.TestCase):
 
 
 class TestAmenity_saving(unittest.TestCase):
-    """ class to test how amenity attributes are saved"""
+    """ class to test how amenity"""
 
     @classmethod
     def setUp(self):
@@ -110,11 +100,7 @@ class TestAmenity_saving(unittest.TestCase):
             os.rename("file.json", "tmpo")
         except IOError:
             pass
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> upstream/ysg
     @classmethod
     def tearDown(self):
         try:
