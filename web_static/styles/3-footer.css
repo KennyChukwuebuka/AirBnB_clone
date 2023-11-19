@@ -1,9 +1,10 @@
 /* Footer */
 footer{
-    color: white;
+    color: #000000;
+    background-color: #FFFFFF;
     height: 60px;
     width: 100%;
-    border-top: 1px#CCCCCC;
+    border-top: 1px #CCCCCC;
     text-align: center;
     vertical-align: middle;
     align-items: center;
@@ -12,6 +13,7 @@ footer{
     position: absolute;
     bottom: 0;
     display: inline;
+    line-height: 50px;
 }
 footer p{
     margin: 0;
