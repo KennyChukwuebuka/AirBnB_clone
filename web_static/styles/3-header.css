@@ -7,10 +7,12 @@ header{
     background: url(../images/logo.png);
     background-repeat: no-repeat;
     background-position: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 .logo {
     margin-left: 20px;
-    display: flex;
-    align-items: center;
   }

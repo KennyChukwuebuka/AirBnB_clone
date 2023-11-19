@@ -6,10 +6,13 @@ footer{
     border-top: 1px#CCCCCC;
     text-align: center;
     vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     position: absolute;
     bottom: 0;
     display: inline;
 }
 footer p{
-    line-height: 30px;
+    margin: 0;
 }
