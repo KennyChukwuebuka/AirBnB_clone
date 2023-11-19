@@ -1,20 +1,15 @@
-/* Footer */
-footer{
-    color: #000000;
-    background-color: #FFFFFF;
-    height: 60px;
-    width: 100%;
-    border-top: 1px #CCCCCC;
-    text-align: center;
-    vertical-align: middle;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    display: inline;
-    line-height: 50px;
+footer {
+	background-color: white;
+	height: 60px;
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	bottom: 0;
+	display: inline;
+	position: fixed;
 }
-footer p{
-    margin: 0;
+footer p {
+	line-height: 30px;
 }
