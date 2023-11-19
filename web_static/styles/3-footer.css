@@ -10,3 +10,6 @@ footer{
     bottom: 0;
     display: inline;
 }
+footer p{
+    line-height: 30px;
+}
