@@ -5,7 +5,10 @@ body {
 	font-size: 14px;
 	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+@media screen and (min-width: 80rem) {
 .container {
 	max-width: 1000px;
 	margin: 30px auto;
+	/*margin: 1em 2em; */
+	}
 }
